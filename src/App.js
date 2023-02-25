@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import BannerPrincipal from "./componentes/banner-principal/banner-principal";
+import ContainerPS5 from "./componentes/container-ps5/container-ps5";
+import TopAppBar from "./componentes/top-app-bar/top-app-bar";
+
 
 function App() {
+  // const theme = useTheme();
+  // const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <TopAppBar />
       </header>
+      <main>
+        <BannerPrincipal/>
+        <ContainerPS5 />
+      </main>
     </div>
   );
 }

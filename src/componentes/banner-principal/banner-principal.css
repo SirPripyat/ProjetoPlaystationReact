@@ -1,0 +1,41 @@
+.banner-principal {
+    height:  550px;
+
+    background-color: var(--interaction-00);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    margin-top: 64px;
+    padding: 108px 64px;
+}
+
+.banner-principal__text-container {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 32px;
+
+    width: 35%;
+}
+
+.text-container__logo {
+    height: 107px;
+    width: fit-content;
+}
+
+.text-container__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+
+    margin: 0px 0px 24px 0px;
+}
+
+.text-container__description {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+}

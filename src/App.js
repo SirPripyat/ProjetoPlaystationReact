@@ -1,5 +1,6 @@
 import BannerPrincipal from "./componentes/banner-principal/banner-principal";
 import ContainerPS5 from "./componentes/container-ps5/container-ps5";
+import EsteMes from "./componentes/este-mes/este-mes";
 import PlaystationPlus from "./componentes/playstation-plus/playstation-plus";
 import TopAppBar from "./componentes/top-app-bar/top-app-bar";
 
@@ -17,6 +18,7 @@ function App() {
         <BannerPrincipal/>
         <ContainerPS5 />
         <PlaystationPlus />
+        <EsteMes />
       </main>
     </div>
   );

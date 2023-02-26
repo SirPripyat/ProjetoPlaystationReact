@@ -17,5 +17,7 @@
     left: 0;
     width: calc(100vw - 80px);
     z-index: 999;
+
+    border-bottom: 1px solid var(--grayscale-200);
   }
   

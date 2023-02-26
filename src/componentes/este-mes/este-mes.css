@@ -1,0 +1,6 @@
+.este-mes {
+    background-color: var(--auxiliary-01);
+
+    display: flex;
+    flex-direction: column;
+}

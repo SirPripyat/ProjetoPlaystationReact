@@ -1,6 +1,6 @@
 import React from "react";
 import './playstation-plus.css';
-import ButtonFilled from "../button-filled/button-filled";
+import ButtonFilledBlue from "../button/button-filled-blue/button-filled-blue";
 
 function PlaystationPlus() {
 
@@ -15,9 +15,11 @@ function PlaystationPlus() {
             <div className="playstation-plus__information">
                 <img src="./assets/playstation-plus-logo.png" alt="Logo da playstation plus" className="information__logo"/>
                 <p className="information__text">Melhore sua experiência PlayStation com o modo multijogador online, jogos mensais, descontos exclusivos e muito mais.</p>
-                <ButtonFilled text="Explore o Playstation Plus"/>
+                <ButtonFilledBlue text="Explore o Playstation Plus"/>
             </div>
-            <img src="./assets/playstation-plus-games.png" alt="Jogos do playstation plus" className="playstation-plus__games"/>
+            <a href=" " >
+                <img src="./assets/playstation-plus-games.png" alt="Jogos do playstation plus" className="playstation-plus__games"/>
+            </a>
         </section>
     )
 }

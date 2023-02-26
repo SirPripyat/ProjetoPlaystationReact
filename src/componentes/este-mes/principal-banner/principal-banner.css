@@ -1,0 +1,35 @@
+.principal-banner {
+    width: auto;
+    height: 398px;
+    min-height: 398px;
+
+    padding: 0px 108px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 16px;
+}
+
+.principal-banner__title {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.title__destaque {
+    font-weight: 700;
+}
+
+.principal-banner__texto {
+    font-size: 20px;
+    line-height: 30px;
+
+    padding: 0;
+    margin: 0;
+
+    width: 45%;
+}

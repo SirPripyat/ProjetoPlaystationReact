@@ -1,7 +1,7 @@
 import React from "react";
-import './button-filled.css';
+import './button-filled-blue.css';
 
-function ButtonFilled(props) {
+function ButtonFilledBlue(props) {
 
     return (
         <button
@@ -13,4 +13,4 @@ function ButtonFilled(props) {
 
 }
 
-export default ButtonFilled;
+export default ButtonFilledBlue;

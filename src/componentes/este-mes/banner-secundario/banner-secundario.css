@@ -1,0 +1,38 @@
+.banner-secundario {
+    padding: 64px 108px;
+
+    width: calc(100% - 108px - 10);
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 48px;
+    align-items: flex-start;
+}
+
+.banner-secundario__card {
+    width: calc(100% - 48px);
+    height: auto;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: center;
+    text-align: center;
+    
+    cursor: pointer;
+}
+
+.banner-secundario__card:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.card__thumbnail {
+    border-radius: 16px;
+}
+
+.card__thumbnail:hover {
+    border: 1px solid var(--interaction-00);
+}
+
